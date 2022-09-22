@@ -386,7 +386,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('Channel ⭕️', url='https://t.me/MesukTarikul1000')
             ],
             [
-                InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/MesukTarikul1000')
+                InlineKeyboardButton('🎬 MesukTarikul1000 🎬', url=f'https://t.me/MesukTarikul1000')
             ]
             ]
 
@@ -440,7 +440,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('Channel ⭕️', url='https://t.me/MesukTarikul1000')
             ],
             [
-                InlineKeyboardButton('🎬 Series & Movie Club 🎬', url=f'https://t.me/MesukTarikul1000')
+                InlineKeyboardButton('🎬 MesukTarikul1000 🎬', url=f'https://t.me/MesukTarikul1000')
             ]
             ]
         await query.answer()
@@ -501,9 +501,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('URL Short', callback_data='shortner'),
             InlineKeyboardButton('YouTube', callback_data='music'),
             ],[
-            InlineKeyboardButton('Zombies', callback_data='zombies'),
-            InlineKeyboardButton('« Back', callback_data='start'),
-            InlineKeyboardButton('Adult Bot 🔞', url='https://t.me/AdultSearchXBot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
